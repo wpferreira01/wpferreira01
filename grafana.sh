@@ -60,7 +60,7 @@ for i in {0..90..6}
         "for": "5m",
         "frequency": "1m",
         "handler": 1,
-        "name": "['$i']Unimed_EKS PRD Pod '$container_name' MemoryUtilization > 80%",
+        "name": "['$i']Unimed_EKS PRD Pod '$containerName' MemoryUtilization > 80%",
         "noDataState": "no_data",
         "notifications": [
           {
@@ -114,7 +114,7 @@ for i in {0..90..6}
       "steppedLine": false,
       "targets": [
         { 
-        	"expr": "sum(container_memory_working_set_bytes{container_name=\"'$container_name'\",namespace=\"api-services\",pod=~\"'$container_name'.*\",service=\"kubelet\"}) by (pod) / sum(label_join(kube_pod_container_resource_limits_memory_bytes{namespace=\"api-services\",pod=~\"'$container_name'.*\"}, \"pod\", \",\", \"pod\")) by (pod)",
+        	"expr": "sum(container_memory_working_set_bytes{container_name=\"'$containerName'\",namespace=\"api-services\",pod=~\"'$containerName'.*\",service=\"kubelet\"}) by (pod) / sum(label_join(kube_pod_container_resource_limits_memory_bytes{namespace=\"api-services\",pod=~\"'$containerName'.*\"}, \"pod\", \",\", \"pod\")) by (pod)",
          	 "legendFormat": "{{pod}}",
           	"refId": "A"
         }
@@ -131,7 +131,7 @@ for i in {0..90..6}
       "timeFrom": null,
       "timeRegions": [],
       "timeShift": null,
-      "title": "'$container_name' Memory Utilization",
+      "title": "'$containerName' Memory Utilization",
       "tooltip": {
         "shared": true,
         "sort": 0,
