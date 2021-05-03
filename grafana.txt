@@ -213,7 +213,7 @@
         "h": 6,
         "w": 8,
         "x": 0,
-        "y": 6,
+        "y": 6
       },
       "hiddenSeries": false,
       "id": 2,
@@ -639,7 +639,7 @@
         "h": 6,
         "w": 8,
         "x": 8,
-        "y": 6,
+        "y": 6
       },
       "hiddenSeries": false,
       "id": 5,
@@ -1065,7 +1065,7 @@
         "h": 6,
         "w": 8,
         "x": 16,
-        "y": 6,
+        "y": 6
       },
       "hiddenSeries": false,
       "id": 8,
@@ -1491,7 +1491,7 @@
         "h": 6,
         "w": 8,
         "x": 24,
-        "y": 6,
+        "y": 6
       },
       "hiddenSeries": false,
       "id": 11,
@@ -1917,7 +1917,7 @@
         "h": 6,
         "w": 8,
         "x": 32,
-        "y": 6,
+        "y": 6
       },
       "hiddenSeries": false,
       "id": 14,
@@ -2343,7 +2343,7 @@
         "h": 6,
         "w": 8,
         "x": 40,
-        "y": 6,
+        "y": 6
       },
       "hiddenSeries": false,
       "id": 17,
@@ -2769,7 +2769,7 @@
         "h": 6,
         "w": 8,
         "x": 48,
-        "y": 6,
+        "y": 6
       },
       "hiddenSeries": false,
       "id": 20,
@@ -3195,7 +3195,7 @@
         "h": 6,
         "w": 8,
         "x": 56,
-        "y": 6,
+        "y": 6
       },
       "hiddenSeries": false,
       "id": 23,
@@ -3621,7 +3621,7 @@
         "h": 6,
         "w": 8,
         "x": 64,
-        "y": 6,
+        "y": 6
       },
       "hiddenSeries": false,
       "id": 26,
@@ -4047,7 +4047,7 @@
         "h": 6,
         "w": 8,
         "x": 72,
-        "y": 6,
+        "y": 6
       },
       "hiddenSeries": false,
       "id": 29,
@@ -4473,7 +4473,7 @@
         "h": 6,
         "w": 8,
         "x": 80,
-        "y": 6,
+        "y": 6
       },
       "hiddenSeries": false,
       "id": 32,
@@ -4899,7 +4899,7 @@
         "h": 6,
         "w": 8,
         "x": 88,
-        "y": 6,
+        "y": 6
       },
       "hiddenSeries": false,
       "id": 35,
@@ -5325,7 +5325,7 @@
         "h": 6,
         "w": 8,
         "x": 96,
-        "y": 6,
+        "y": 6
       },
       "hiddenSeries": false,
       "id": 38,
@@ -5751,7 +5751,7 @@
         "h": 6,
         "w": 8,
         "x": 104,
-        "y": 6,
+        "y": 6
       },
       "hiddenSeries": false,
       "id": 41,
@@ -6177,7 +6177,7 @@
         "h": 6,
         "w": 8,
         "x": 112,
-        "y": 6,
+        "y": 6
       },
       "hiddenSeries": false,
       "id": 44,
@@ -6298,7 +6298,7 @@
         "for": "5m",
         "frequency": "1m",
         "handler": 1,
-        "name": "[]Unimed_EKS PRD Pod vida-cobranca-java MemoryUtilization > 80%",
+        "name": "[]Unimed_EKS PRD Pod sincroniza-relatorio-java MemoryUtilization > 80%",
         "noDataState": "no_data",
         "notifications": [
           {
@@ -6323,6 +6323,148 @@
       },
       "hiddenSeries": false,
       "id": 45,
+      "legend": {
+        "alignAsTable": true,
+        "avg": true,
+        "current": true,
+        "hideEmpty": false,
+        "max": true,
+        "min": false,
+        "show": true,
+        "total": false,
+        "values": true
+      },
+      "lines": true,
+      "linewidth": 1,
+      "links": [],
+      "nullPointMode": "null",
+      "options": {
+        "dataLinks": []
+      },
+      "percentage": false,
+      "pluginVersion": "6.5.2",
+      "pointradius": 2,
+      "points": false,
+      "renderer": "flot",
+      "seriesOverrides": [],
+      "spaceLength": 10,
+      "stack": false,
+      "steppedLine": false,
+      "targets": [
+        { 
+        	"expr": "sum(container_memory_working_set_bytes{container_name=\"sincroniza-relatorio-java\",namespace=\"api-services\",pod=~\"sincroniza-relatorio-java.*\",service=\"kubelet\"}) by (pod) / sum(label_join(kube_pod_container_resource_limits_memory_bytes{namespace=\"api-services\",pod=~\"sincroniza-relatorio-java.*\"}, \"pod\", \",\", \"pod\")) by (pod)",
+         	 "legendFormat": "{{pod}}",
+          	"refId": "A"
+        }
+      ],
+      "thresholds": [
+        {
+          "colorMode": "critical",
+          "fill": true,
+          "line": true,
+          "op": "gt",
+          "value": 0.8
+        }
+      ],
+      "timeFrom": null,
+      "timeRegions": [],
+      "timeShift": null,
+      "title": "sincroniza-relatorio-java Memory Utilization",
+      "tooltip": {
+        "shared": true,
+        "sort": 0,
+        "value_type": "individual"
+      },
+      "type": "graph",
+      "xaxis": {
+        "buckets": null,
+        "mode": "time",
+        "name": null,
+        "show": true,
+        "values": []
+      },
+      "yaxes": [
+        {
+          "decimals": 1,
+          "format": "percentunit",
+          "label": null,
+          "logBase": 1,
+          "max": "1.2",
+          "min": null,
+          "show": true
+        },
+        {
+          "decimals": null,
+          "format": "short",
+          "label": null,
+          "logBase": 1,
+          "max": null,
+          "min": null,
+          "show": true
+        }
+      ],
+      "yaxis": {
+        "align": false,
+        "alignLevel": null
+      }
+	},
+{
+      "alert": {
+        "alertRuleTags": {},
+        "conditions": [
+          {
+            "evaluator": {
+              "params": [
+                0.8
+              ],
+              "type": "gt"
+            },
+            "operator": {
+              "type": "and"
+            },
+            "query": {
+              "params": [
+                "A",
+                "5m",
+                "now"
+              ]
+            },
+            "reducer": {
+              "params": [],
+              "type": "avg"
+            },
+            "type": "query"
+          }
+        ],
+        "executionErrorState": "alerting",
+        "for": "5m",
+        "frequency": "1m",
+        "handler": 1,
+        "name": "[]Unimed_EKS PRD Pod vida-cobranca-java MemoryUtilization > 80%",
+        "noDataState": "no_data",
+        "notifications": [
+          {
+            "uid": "wnJvq08Zk"
+          }
+        ]
+      },
+      "aliasColors": {},
+      "bars": false,
+      "cacheTimeout": null,
+      "dashLength": 10,
+      "dashes": false,
+      "datasource": "Prometheus-Produção",
+      "decimals": 2,
+      "fill": 1,
+      "fillGradient": 0,
+      "gridPos": {
+        "h": 6,
+        "w": 8,
+        "x": 0,
+        "y": 90
+      },
+      "hiddenSeries": false,
+      "id": 46,
       "legend": {
         "alignAsTable": true,
         "avg": true,
@@ -6460,11 +6602,11 @@
       "gridPos": {
         "h": 6,
         "w": 8,
-        "x": 0,
-        "y": 90
+        "x": 120,
+        "y": 6
       },
       "hiddenSeries": false,
-      "id": 46,
+      "id": 47,
       "legend": {
         "alignAsTable": true,
         "avg": true,
@@ -6512,148 +6654,6 @@
       "timeRegions": [],
       "timeShift": null,
       "title": "vida-movimentacao-online-java Memory Utilization",
-      "tooltip": {
-        "shared": true,
-        "sort": 0,
-        "value_type": "individual"
-      },
-      "type": "graph",
-      "xaxis": {
-        "buckets": null,
-        "mode": "time",
-        "name": null,
-        "show": true,
-        "values": []
-      },
-      "yaxes": [
-        {
-          "decimals": 1,
-          "format": "percentunit",
-          "label": null,
-          "logBase": 1,
-          "max": "1.2",
-          "min": null,
-          "show": true
-        },
-        {
-          "decimals": null,
-          "format": "short",
-          "label": null,
-          "logBase": 1,
-          "max": null,
-          "min": null,
-          "show": true
-        }
-      ],
-      "yaxis": {
-        "align": false,
-        "alignLevel": null
-      }
-	},
-{
-      "alert": {
-        "alertRuleTags": {},
-        "conditions": [
-          {
-            "evaluator": {
-              "params": [
-                0.8
-              ],
-              "type": "gt"
-            },
-            "operator": {
-              "type": "and"
-            },
-            "query": {
-              "params": [
-                "A",
-                "5m",
-                "now"
-              ]
-            },
-            "reducer": {
-              "params": [],
-              "type": "avg"
-            },
-            "type": "query"
-          }
-        ],
-        "executionErrorState": "alerting",
-        "for": "5m",
-        "frequency": "1m",
-        "handler": 1,
-        "name": "[]Unimed_EKS PRD Pod vida-relatorio-service-java MemoryUtilization > 80%",
-        "noDataState": "no_data",
-        "notifications": [
-          {
-            "uid": "wnJvq08Zk"
-          }
-        ]
-      },
-      "aliasColors": {},
-      "bars": false,
-      "cacheTimeout": null,
-      "dashLength": 10,
-      "dashes": false,
-      "datasource": "Prometheus-Produção",
-      "decimals": 2,
-      "fill": 1,
-      "fillGradient": 0,
-      "gridPos": {
-        "h": 6,
-        "w": 8,
-        "x": 120,
-        "y": 6,
-      },
-      "hiddenSeries": false,
-      "id": 47,
-      "legend": {
-        "alignAsTable": true,
-        "avg": true,
-        "current": true,
-        "hideEmpty": false,
-        "max": true,
-        "min": false,
-        "show": true,
-        "total": false,
-        "values": true
-      },
-      "lines": true,
-      "linewidth": 1,
-      "links": [],
-      "nullPointMode": "null",
-      "options": {
-        "dataLinks": []
-      },
-      "percentage": false,
-      "pluginVersion": "6.5.2",
-      "pointradius": 2,
-      "points": false,
-      "renderer": "flot",
-      "seriesOverrides": [],
-      "spaceLength": 10,
-      "stack": false,
-      "steppedLine": false,
-      "targets": [
-        { 
-        	"expr": "sum(container_memory_working_set_bytes{container_name=\"vida-relatorio-service-java\",namespace=\"api-services\",pod=~\"vida-relatorio-service-java.*\",service=\"kubelet\"}) by (pod) / sum(label_join(kube_pod_container_resource_limits_memory_bytes{namespace=\"api-services\",pod=~\"vida-relatorio-service-java.*\"}, \"pod\", \",\", \"pod\")) by (pod)",
-         	 "legendFormat": "{{pod}}",
-          	"refId": "A"
-        }
-      ],
-      "thresholds": [
-        {
-          "colorMode": "critical",
-          "fill": true,
-          "line": true,
-          "op": "gt",
-          "value": 0.8
-        }
-      ],
-      "timeFrom": null,
-      "timeRegions": [],
-      "timeShift": null,
-      "title": "vida-relatorio-service-java Memory Utilization",
       "tooltip": {
         "shared": true,
         "sort": 0,
