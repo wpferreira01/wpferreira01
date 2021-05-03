@@ -213,7 +213,7 @@
         "h": 6,
         "w": 8,
         "x": 0,
-        "y": 6
+        "y": 6,
       },
       "hiddenSeries": false,
       "id": 2,
@@ -354,8 +354,8 @@
       "gridPos": {
         "h": 6,
         "w": 8,
-        "x": 0,
-        "y": 12
+        "x": 16,
+        "y": 0
       },
       "hiddenSeries": false,
       "id": 3,
@@ -497,7 +497,7 @@
         "h": 6,
         "w": 8,
         "x": 0,
-        "y": 18
+        "y": 6
       },
       "hiddenSeries": false,
       "id": 4,
@@ -638,8 +638,8 @@
       "gridPos": {
         "h": 6,
         "w": 8,
-        "x": 0,
-        "y": 24
+        "x": 8,
+        "y": 6,
       },
       "hiddenSeries": false,
       "id": 5,
@@ -780,8 +780,8 @@
       "gridPos": {
         "h": 6,
         "w": 8,
-        "x": 0,
-        "y": 30
+        "x": 16,
+        "y": 6
       },
       "hiddenSeries": false,
       "id": 6,
@@ -923,7 +923,7 @@
         "h": 6,
         "w": 8,
         "x": 0,
-        "y": 36
+        "y": 12
       },
       "hiddenSeries": false,
       "id": 7,
@@ -1064,8 +1064,8 @@
       "gridPos": {
         "h": 6,
         "w": 8,
-        "x": 0,
-        "y": 42
+        "x": 16,
+        "y": 6,
       },
       "hiddenSeries": false,
       "id": 8,
@@ -1206,8 +1206,8 @@
       "gridPos": {
         "h": 6,
         "w": 8,
-        "x": 0,
-        "y": 48
+        "x": 16,
+        "y": 12
       },
       "hiddenSeries": false,
       "id": 9,
@@ -1349,7 +1349,7 @@
         "h": 6,
         "w": 8,
         "x": 0,
-        "y": 54
+        "y": 18
       },
       "hiddenSeries": false,
       "id": 10,
@@ -1490,8 +1490,8 @@
       "gridPos": {
         "h": 6,
         "w": 8,
-        "x": 0,
-        "y": 60
+        "x": 24,
+        "y": 6,
       },
       "hiddenSeries": false,
       "id": 11,
@@ -1632,8 +1632,8 @@
       "gridPos": {
         "h": 6,
         "w": 8,
-        "x": 0,
-        "y": 66
+        "x": 16,
+        "y": 18
       },
       "hiddenSeries": false,
       "id": 12,
@@ -1775,7 +1775,7 @@
         "h": 6,
         "w": 8,
         "x": 0,
-        "y": 72
+        "y": 24
       },
       "hiddenSeries": false,
       "id": 13,
@@ -1916,8 +1916,8 @@
       "gridPos": {
         "h": 6,
         "w": 8,
-        "x": 0,
-        "y": 78
+        "x": 32,
+        "y": 6,
       },
       "hiddenSeries": false,
       "id": 14,
@@ -2058,8 +2058,8 @@
       "gridPos": {
         "h": 6,
         "w": 8,
-        "x": 0,
-        "y": 84
+        "x": 16,
+        "y": 24
       },
       "hiddenSeries": false,
       "id": 15,
@@ -2201,7 +2201,7 @@
         "h": 6,
         "w": 8,
         "x": 0,
-        "y": 90
+        "y": 30
       },
       "hiddenSeries": false,
       "id": 16,
@@ -2342,7 +2342,7 @@
       "gridPos": {
         "h": 6,
         "w": 8,
-        "x": 0,
+        "x": 40,
         "y": 6,
       },
       "hiddenSeries": false,
@@ -2484,8 +2484,8 @@
       "gridPos": {
         "h": 6,
         "w": 8,
-        "x": 8,
-        "y": 6,
+        "x": 16,
+        "y": 30
       },
       "hiddenSeries": false,
       "id": 18,
@@ -2626,8 +2626,8 @@
       "gridPos": {
         "h": 6,
         "w": 8,
-        "x": 16,
-        "y": 6,
+        "x": 0,
+        "y": 36
       },
       "hiddenSeries": false,
       "id": 19,
@@ -2768,7 +2768,7 @@
       "gridPos": {
         "h": 6,
         "w": 8,
-        "x": 24,
+        "x": 48,
         "y": 6,
       },
       "hiddenSeries": false,
@@ -2910,8 +2910,8 @@
       "gridPos": {
         "h": 6,
         "w": 8,
-        "x": 32,
-        "y": 6,
+        "x": 16,
+        "y": 36
       },
       "hiddenSeries": false,
       "id": 21,
@@ -3052,8 +3052,8 @@
       "gridPos": {
         "h": 6,
         "w": 8,
-        "x": 40,
-        "y": 6,
+        "x": 0,
+        "y": 42
       },
       "hiddenSeries": false,
       "id": 22,
@@ -3194,7 +3194,7 @@
       "gridPos": {
         "h": 6,
         "w": 8,
-        "x": 48,
+        "x": 56,
         "y": 6,
       },
       "hiddenSeries": false,
@@ -3336,8 +3336,8 @@
       "gridPos": {
         "h": 6,
         "w": 8,
-        "x": 56,
-        "y": 6,
+        "x": 16,
+        "y": 42
       },
       "hiddenSeries": false,
       "id": 24,
@@ -3478,8 +3478,8 @@
       "gridPos": {
         "h": 6,
         "w": 8,
-        "x": 64,
-        "y": 6,
+        "x": 0,
+        "y": 48
       },
       "hiddenSeries": false,
       "id": 25,
@@ -3620,7 +3620,7 @@
       "gridPos": {
         "h": 6,
         "w": 8,
-        "x": 72,
+        "x": 64,
         "y": 6,
       },
       "hiddenSeries": false,
@@ -3762,8 +3762,8 @@
       "gridPos": {
         "h": 6,
         "w": 8,
-        "x": 80,
-        "y": 6,
+        "x": 16,
+        "y": 48
       },
       "hiddenSeries": false,
       "id": 27,
@@ -3904,8 +3904,8 @@
       "gridPos": {
         "h": 6,
         "w": 8,
-        "x": 88,
-        "y": 6,
+        "x": 0,
+        "y": 54
       },
       "hiddenSeries": false,
       "id": 28,
@@ -4046,7 +4046,7 @@
       "gridPos": {
         "h": 6,
         "w": 8,
-        "x": 96,
+        "x": 72,
         "y": 6,
       },
       "hiddenSeries": false,
@@ -4188,8 +4188,8 @@
       "gridPos": {
         "h": 6,
         "w": 8,
-        "x": 104,
-        "y": 6,
+        "x": 16,
+        "y": 54
       },
       "hiddenSeries": false,
       "id": 30,
@@ -4310,6 +4310,148 @@
         "for": "5m",
         "frequency": "1m",
         "handler": 1,
+        "name": "[]Unimed_EKS PRD Pod reconhecimento-facial-java MemoryUtilization > 80%",
+        "noDataState": "no_data",
+        "notifications": [
+          {
+            "uid": "wnJvq08Zk"
+          }
+        ]
+      },
+      "aliasColors": {},
+      "bars": false,
+      "cacheTimeout": null,
+      "dashLength": 10,
+      "dashes": false,
+      "datasource": "Prometheus-Produção",
+      "decimals": 2,
+      "fill": 1,
+      "fillGradient": 0,
+      "gridPos": {
+        "h": 6,
+        "w": 8,
+        "x": 0,
+        "y": 60
+      },
+      "hiddenSeries": false,
+      "id": 31,
+      "legend": {
+        "alignAsTable": true,
+        "avg": true,
+        "current": true,
+        "hideEmpty": false,
+        "max": true,
+        "min": false,
+        "show": true,
+        "total": false,
+        "values": true
+      },
+      "lines": true,
+      "linewidth": 1,
+      "links": [],
+      "nullPointMode": "null",
+      "options": {
+        "dataLinks": []
+      },
+      "percentage": false,
+      "pluginVersion": "6.5.2",
+      "pointradius": 2,
+      "points": false,
+      "renderer": "flot",
+      "seriesOverrides": [],
+      "spaceLength": 10,
+      "stack": false,
+      "steppedLine": false,
+      "targets": [
+        { 
+        	"expr": "sum(container_memory_working_set_bytes{container_name=\"reconhecimento-facial-java\",namespace=\"api-services\",pod=~\"reconhecimento-facial-java.*\",service=\"kubelet\"}) by (pod) / sum(label_join(kube_pod_container_resource_limits_memory_bytes{namespace=\"api-services\",pod=~\"reconhecimento-facial-java.*\"}, \"pod\", \",\", \"pod\")) by (pod)",
+         	 "legendFormat": "{{pod}}",
+          	"refId": "A"
+        }
+      ],
+      "thresholds": [
+        {
+          "colorMode": "critical",
+          "fill": true,
+          "line": true,
+          "op": "gt",
+          "value": 0.8
+        }
+      ],
+      "timeFrom": null,
+      "timeRegions": [],
+      "timeShift": null,
+      "title": "reconhecimento-facial-java Memory Utilization",
+      "tooltip": {
+        "shared": true,
+        "sort": 0,
+        "value_type": "individual"
+      },
+      "type": "graph",
+      "xaxis": {
+        "buckets": null,
+        "mode": "time",
+        "name": null,
+        "show": true,
+        "values": []
+      },
+      "yaxes": [
+        {
+          "decimals": 1,
+          "format": "percentunit",
+          "label": null,
+          "logBase": 1,
+          "max": "1.2",
+          "min": null,
+          "show": true
+        },
+        {
+          "decimals": null,
+          "format": "short",
+          "label": null,
+          "logBase": 1,
+          "max": null,
+          "min": null,
+          "show": true
+        }
+      ],
+      "yaxis": {
+        "align": false,
+        "alignLevel": null
+      }
+	},
+{
+      "alert": {
+        "alertRuleTags": {},
+        "conditions": [
+          {
+            "evaluator": {
+              "params": [
+                0.8
+              ],
+              "type": "gt"
+            },
+            "operator": {
+              "type": "and"
+            },
+            "query": {
+              "params": [
+                "A",
+                "5m",
+                "now"
+              ]
+            },
+            "reducer": {
+              "params": [],
+              "type": "avg"
+            },
+            "type": "query"
+          }
+        ],
+        "executionErrorState": "alerting",
+        "for": "5m",
+        "frequency": "1m",
+        "handler": 1,
         "name": "[]Unimed_EKS PRD Pod re-estipulante-contrato-java MemoryUtilization > 80%",
         "noDataState": "no_data",
         "notifications": [
@@ -4330,11 +4472,11 @@
       "gridPos": {
         "h": 6,
         "w": 8,
-        "x": 112,
+        "x": 80,
         "y": 6,
       },
       "hiddenSeries": false,
-      "id": 31,
+      "id": 32,
       "legend": {
         "alignAsTable": true,
         "avg": true,
@@ -4472,11 +4614,11 @@
       "gridPos": {
         "h": 6,
         "w": 8,
-        "x": 120,
-        "y": 6,
+        "x": 16,
+        "y": 60
       },
       "hiddenSeries": false,
-      "id": 32,
+      "id": 33,
       "legend": {
         "alignAsTable": true,
         "avg": true,
@@ -4594,148 +4736,6 @@
         "for": "5m",
         "frequency": "1m",
         "handler": 1,
-        "name": "[]Unimed_EKS PRD Pod reconhecimento-facial-java MemoryUtilization > 80%",
-        "noDataState": "no_data",
-        "notifications": [
-          {
-            "uid": "wnJvq08Zk"
-          }
-        ]
-      },
-      "aliasColors": {},
-      "bars": false,
-      "cacheTimeout": null,
-      "dashLength": 10,
-      "dashes": false,
-      "datasource": "Prometheus-Produção",
-      "decimals": 2,
-      "fill": 1,
-      "fillGradient": 0,
-      "gridPos": {
-        "h": 6,
-        "w": 8,
-        "x": 16,
-        "y": 0
-      },
-      "hiddenSeries": false,
-      "id": 33,
-      "legend": {
-        "alignAsTable": true,
-        "avg": true,
-        "current": true,
-        "hideEmpty": false,
-        "max": true,
-        "min": false,
-        "show": true,
-        "total": false,
-        "values": true
-      },
-      "lines": true,
-      "linewidth": 1,
-      "links": [],
-      "nullPointMode": "null",
-      "options": {
-        "dataLinks": []
-      },
-      "percentage": false,
-      "pluginVersion": "6.5.2",
-      "pointradius": 2,
-      "points": false,
-      "renderer": "flot",
-      "seriesOverrides": [],
-      "spaceLength": 10,
-      "stack": false,
-      "steppedLine": false,
-      "targets": [
-        { 
-        	"expr": "sum(container_memory_working_set_bytes{container_name=\"reconhecimento-facial-java\",namespace=\"api-services\",pod=~\"reconhecimento-facial-java.*\",service=\"kubelet\"}) by (pod) / sum(label_join(kube_pod_container_resource_limits_memory_bytes{namespace=\"api-services\",pod=~\"reconhecimento-facial-java.*\"}, \"pod\", \",\", \"pod\")) by (pod)",
-         	 "legendFormat": "{{pod}}",
-          	"refId": "A"
-        }
-      ],
-      "thresholds": [
-        {
-          "colorMode": "critical",
-          "fill": true,
-          "line": true,
-          "op": "gt",
-          "value": 0.8
-        }
-      ],
-      "timeFrom": null,
-      "timeRegions": [],
-      "timeShift": null,
-      "title": "reconhecimento-facial-java Memory Utilization",
-      "tooltip": {
-        "shared": true,
-        "sort": 0,
-        "value_type": "individual"
-      },
-      "type": "graph",
-      "xaxis": {
-        "buckets": null,
-        "mode": "time",
-        "name": null,
-        "show": true,
-        "values": []
-      },
-      "yaxes": [
-        {
-          "decimals": 1,
-          "format": "percentunit",
-          "label": null,
-          "logBase": 1,
-          "max": "1.2",
-          "min": null,
-          "show": true
-        },
-        {
-          "decimals": null,
-          "format": "short",
-          "label": null,
-          "logBase": 1,
-          "max": null,
-          "min": null,
-          "show": true
-        }
-      ],
-      "yaxis": {
-        "align": false,
-        "alignLevel": null
-      }
-	},
-{
-      "alert": {
-        "alertRuleTags": {},
-        "conditions": [
-          {
-            "evaluator": {
-              "params": [
-                0.8
-              ],
-              "type": "gt"
-            },
-            "operator": {
-              "type": "and"
-            },
-            "query": {
-              "params": [
-                "A",
-                "5m",
-                "now"
-              ]
-            },
-            "reducer": {
-              "params": [],
-              "type": "avg"
-            },
-            "type": "query"
-          }
-        ],
-        "executionErrorState": "alerting",
-        "for": "5m",
-        "frequency": "1m",
-        "handler": 1,
         "name": "[]Unimed_EKS PRD Pod re-pessoa-fisica-java MemoryUtilization > 80%",
         "noDataState": "no_data",
         "notifications": [
@@ -4756,8 +4756,8 @@
       "gridPos": {
         "h": 6,
         "w": 8,
-        "x": 16,
-        "y": 6
+        "x": 0,
+        "y": 66
       },
       "hiddenSeries": false,
       "id": 34,
@@ -4898,8 +4898,8 @@
       "gridPos": {
         "h": 6,
         "w": 8,
-        "x": 16,
-        "y": 12
+        "x": 88,
+        "y": 6,
       },
       "hiddenSeries": false,
       "id": 35,
@@ -5041,7 +5041,7 @@
         "h": 6,
         "w": 8,
         "x": 16,
-        "y": 18
+        "y": 66
       },
       "hiddenSeries": false,
       "id": 36,
@@ -5182,8 +5182,8 @@
       "gridPos": {
         "h": 6,
         "w": 8,
-        "x": 16,
-        "y": 24
+        "x": 0,
+        "y": 72
       },
       "hiddenSeries": false,
       "id": 37,
@@ -5324,8 +5324,8 @@
       "gridPos": {
         "h": 6,
         "w": 8,
-        "x": 16,
-        "y": 30
+        "x": 96,
+        "y": 6,
       },
       "hiddenSeries": false,
       "id": 38,
@@ -5467,7 +5467,7 @@
         "h": 6,
         "w": 8,
         "x": 16,
-        "y": 36
+        "y": 72
       },
       "hiddenSeries": false,
       "id": 39,
@@ -5608,8 +5608,8 @@
       "gridPos": {
         "h": 6,
         "w": 8,
-        "x": 16,
-        "y": 42
+        "x": 0,
+        "y": 78
       },
       "hiddenSeries": false,
       "id": 40,
@@ -5750,8 +5750,8 @@
       "gridPos": {
         "h": 6,
         "w": 8,
-        "x": 16,
-        "y": 48
+        "x": 104,
+        "y": 6,
       },
       "hiddenSeries": false,
       "id": 41,
@@ -5893,7 +5893,7 @@
         "h": 6,
         "w": 8,
         "x": 16,
-        "y": 54
+        "y": 78
       },
       "hiddenSeries": false,
       "id": 42,
@@ -6034,8 +6034,8 @@
       "gridPos": {
         "h": 6,
         "w": 8,
-        "x": 16,
-        "y": 60
+        "x": 0,
+        "y": 84
       },
       "hiddenSeries": false,
       "id": 43,
@@ -6176,8 +6176,8 @@
       "gridPos": {
         "h": 6,
         "w": 8,
-        "x": 16,
-        "y": 66
+        "x": 112,
+        "y": 6,
       },
       "hiddenSeries": false,
       "id": 44,
@@ -6319,7 +6319,7 @@
         "h": 6,
         "w": 8,
         "x": 16,
-        "y": 72
+        "y": 84
       },
       "hiddenSeries": false,
       "id": 45,
@@ -6460,8 +6460,8 @@
       "gridPos": {
         "h": 6,
         "w": 8,
-        "x": 16,
-        "y": 78
+        "x": 0,
+        "y": 90
       },
       "hiddenSeries": false,
       "id": 46,
@@ -6602,8 +6602,8 @@
       "gridPos": {
         "h": 6,
         "w": 8,
-        "x": 16,
-        "y": 84
+        "x": 120,
+        "y": 6,
       },
       "hiddenSeries": false,
       "id": 47,
@@ -6691,151 +6691,9 @@
         "align": false,
         "alignLevel": null
       }
-	},
-{
-      "alert": {
-        "alertRuleTags": {},
-        "conditions": [
-          {
-            "evaluator": {
-              "params": [
-                0.8
-              ],
-              "type": "gt"
-            },
-            "operator": {
-              "type": "and"
-            },
-            "query": {
-              "params": [
-                "A",
-                "5m",
-                "now"
-              ]
-            },
-            "reducer": {
-              "params": [],
-              "type": "avg"
-            },
-            "type": "query"
-          }
-        ],
-        "executionErrorState": "alerting",
-        "for": "5m",
-        "frequency": "1m",
-        "handler": 1,
-        "name": "[]Unimed_EKS PRD Pod  MemoryUtilization > 80%",
-        "noDataState": "no_data",
-        "notifications": [
-          {
-            "uid": "wnJvq08Zk"
-          }
-        ]
-      },
-      "aliasColors": {},
-      "bars": false,
-      "cacheTimeout": null,
-      "dashLength": 10,
-      "dashes": false,
-      "datasource": "Prometheus-Produção",
-      "decimals": 2,
-      "fill": 1,
-      "fillGradient": 0,
-      "gridPos": {
-        "h": 6,
-        "w": 8,
-        "x": 16,
-        "y": 90
-      },
-      "hiddenSeries": false,
-      "id": ,
-      "legend": {
-        "alignAsTable": true,
-        "avg": true,
-        "current": true,
-        "hideEmpty": false,
-        "max": true,
-        "min": false,
-        "show": true,
-        "total": false,
-        "values": true
-      },
-      "lines": true,
-      "linewidth": 1,
-      "links": [],
-      "nullPointMode": "null",
-      "options": {
-        "dataLinks": []
-      },
-      "percentage": false,
-      "pluginVersion": "6.5.2",
-      "pointradius": 2,
-      "points": false,
-      "renderer": "flot",
-      "seriesOverrides": [],
-      "spaceLength": 10,
-      "stack": false,
-      "steppedLine": false,
-      "targets": [
-        { 
-        	"expr": "sum(container_memory_working_set_bytes{container_name=\"\",namespace=\"api-services\",pod=~\".*\",service=\"kubelet\"}) by (pod) / sum(label_join(kube_pod_container_resource_limits_memory_bytes{namespace=\"api-services\",pod=~\".*\"}, \"pod\", \",\", \"pod\")) by (pod)",
-         	 "legendFormat": "{{pod}}",
-          	"refId": "A"
-        }
-      ],
-      "thresholds": [
-        {
-          "colorMode": "critical",
-          "fill": true,
-          "line": true,
-          "op": "gt",
-          "value": 0.8
-        }
-      ],
-      "timeFrom": null,
-      "timeRegions": [],
-      "timeShift": null,
-      "title": " Memory Utilization",
-      "tooltip": {
-        "shared": true,
-        "sort": 0,
-        "value_type": "individual"
-      },
-      "type": "graph",
-      "xaxis": {
-        "buckets": null,
-        "mode": "time",
-        "name": null,
-        "show": true,
-        "values": []
-      },
-      "yaxes": [
-        {
-          "decimals": 1,
-          "format": "percentunit",
-          "label": null,
-          "logBase": 1,
-          "max": "1.2",
-          "min": null,
-          "show": true
-        },
-        {
-          "decimals": null,
-          "format": "short",
-          "label": null,
-          "logBase": 1,
-          "max": null,
-          "min": null,
-          "show": true
-        }
-      ],
-      "yaxis": {
-        "align": false,
-        "alignLevel": null
-      }
-    }
+	}
   ],
-	"schemaVersion": 21,
+        "schemaVersion": 21,
   "style": "dark",
   "tags": [],
   "templating": {
