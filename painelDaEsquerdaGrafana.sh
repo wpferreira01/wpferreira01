@@ -1,8 +1,10 @@
 #!/bin/bash
 kubectl get deployments.apps |grep -v '0/'| grep -v NAME|grep -v debug| awk '{print $1}'| sed -n 1,16p| sort > /home/brlink/container-name.txt
 seq 1 16 > /home/brlink/grafanId.txt
+seq 901 916 > /home/brlink/alertname.txt
 containerName=$(head -1 /home/brlink/container-name.txt)
 id=$(head -1 /home/brlink/grafanId.txt)
+alertname=$(head -1 /home/brlink/alertname.txt)
 ####INICIO DA CRIAÇÃO DO DASHGRAFANA
 		echo '{
   "annotations": {
@@ -27,8 +29,7 @@ id=$(head -1 /home/brlink/grafanId.txt)
 
 for i in {0..90..6} 
 	do 
-	echo '
-	{
+	echo '{
       "alert": {
         "alertRuleTags": {},
         "conditions": [
@@ -60,7 +61,7 @@ for i in {0..90..6}
         "for": "5m",
         "frequency": "1m",
         "handler": 1,
-        "name": "['$i']Unimed_EKS PRD Pod '$containerName' MemoryUtilization > 80%",
+        "name": "['$alername']Unimed_EKS PRD Pod '$containerName' MemoryUtilization > 80%",
         "noDataState": "no_data",
         "notifications": [
           {
@@ -169,39 +170,8 @@ for i in {0..90..6}
         "align": false,
         "alignLevel": null
       }
-	},' >> /home/brlink/grafana.txt && sed -i 1d /home/brlink/container-name.txt | sed -i 1d /home/brlink/grafanId.txt 
+	},' >> /home/brlink/grafana.txt && sed -i 1d /home/brlink/container-name.txt | sed -i 1d /home/brlink/grafanId.txt | sed -i 1d /home/brlink/alertname.txt
 	id=$(head -1 /home/brlink/grafanId.txt) 
 	containerName=$(head -1 /home/brlink/container-name.txt)
+	alertname=$(head -1 /home/brlink/alertname.txt)
 	done
-
-	echo '
-  ],
-	"schemaVersion": 21,
-  "style": "dark",
-  "tags": [],
-  "templating": {
-    "list": []
-  },
-  "time": {
-    "from": "now-5m",
-    "to": "now"
-  },
-  "timepicker": {
-    "refresh_intervals": [
-      "5s",
-      "10s",
-      "30s",
-      "1m",
-      "5m",
-      "15m",
-      "30m",
-      "1h",
-      "2h",
-      "1d"
-    ]
-  },
-  "timezone": "",
-  "title": "PODS UTILIZATION RESOURES - New",
-  "uid": "GgxzDsrGk",
-  "version": 13
-}' >> /home/brlink/grafana.txt
