@@ -169,7 +169,9 @@ for i in {0..90..6}
         "align": false,
         "alignLevel": null
       }
-	},' >> /home/brlink/grafana.txt && sed -i 1d /home/brlink/container-name.txt | sed -i 1d /home/brlink/grafanId.txt && id=$(head -1 /home/brlink/grafanId.txt) | containerName=$(head -1 /home/brlink/container-name.txt)
+	},' >> /home/brlink/grafana.txt && sed -i 1d /home/brlink/container-name.txt | sed -i 1d /home/brlink/grafanId.txt 
+	id=$(head -1 /home/brlink/grafanId.txt) 
+	containerName=$(head -1 /home/brlink/container-name.txt)
 	done
 
 	echo '
