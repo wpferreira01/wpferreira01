@@ -229,8 +229,8 @@ for i in {0..90..6}
       "gridPos": {
         "h": 6,
         "w": 8,
-        "x": '$posicaoMeio',
-        "y": 6
+        "x": 8,
+        "y": '$posicaoMeio'
       },
       "hiddenSeries": false,
       "id": '$id',
