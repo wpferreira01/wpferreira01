@@ -6833,7 +6833,7 @@
         "align": false,
         "alignLevel": null
       }
-	},
+    }
   ],
 	"schemaVersion": 21,
   "style": "dark",
